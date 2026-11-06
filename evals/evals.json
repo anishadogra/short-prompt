@@ -1,0 +1,9 @@
+{
+  "skill_name": "short-prompt",
+  "evals": [
+    {"id": 1, "prompt": "make a reel from the video i just sent, the snack one, add music and captions, zoom in where i show the pack", "expected_output": "One-line say-back; 'zoom in' read as a slow push-in; clip resolved by looking (or one question naming the best candidate); the snack client's defaults filled; no hook or extra beats", "files": []},
+    {"id": 2, "prompt": "thumbnail for my new reel, the yellow thing, title is 5 AI tools nobody talks about", "expected_output": "'the yellow thing' resolved from the word list to the saved thumbnail theme; photo picked from the person's library; title used verbatim; one question at most", "files": []},
+    {"id": 3, "prompt": "make a scary story reel, girl gets a wrong number call at night", "expected_output": "Routed to the story-reel job and its saved defaults (simple script, one place, two people, locked faces); saved to the default folder; no clarifying questions about size or style", "files": []},
+    {"id": 4, "prompt": "in the last snack video fast forward a bit where i open the packet and make the logo bigger, actually no the logo is fine", "expected_output": "Logo request cancelled and said back as untouched; 'fast forward' read as a later in-point on the same clip at normal speed; the right video found by looking", "files": []}
+  ]
+}
